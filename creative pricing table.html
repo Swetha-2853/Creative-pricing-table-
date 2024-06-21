@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #left,#right,#mid{
+              border: 0px white solid;
+              border-radius: 15px;
+        }
+        body{
+            background: url(./images/background7.jfif);
+           
+        }
+        #left,#right{
+            display: inline-block;
+            margin-top: 75px;
+
+        }   
+        #right{
+             margin-left: 322px;
+            
+        }
+        #mid{
+            position: absolute;
+            margin-left: 550px;
+            top: 30px;
+            /*background-color: blue;*/
+        }
+        #left{
+            margin-left: 210px;
+        }
+        #leftbottom{
+            height: 210px;
+            width: 326px;
+            padding: 1px;
+            padding-bottom: 20px;
+            background-color:rgb(27, 179, 128);
+            position: absolute;
+            border-bottom-left-radius: 10px;
+        }
+        #rightbottom{
+            height: 210px;
+            width: 326px;
+            padding: 1px;
+            padding-bottom: 20px;
+            background-color:rgb(219, 130, 142);
+            position: absolute; 
+            border-bottom-right-radius: 10px;
+
+        }
+        #middlebottom{
+           /* height: 260px;
+            width: 3px;*/
+            padding: 1px;
+            padding-bottom: 20px;
+            background-color:lightslategrey;
+            position: absolute;
+            border-bottom-left-radius: 10px;
+            border-bottom-right-radius: 10px;
+        }
+      
+        #lefttop{
+            background-color:white;
+            top: 150px;  
+            border-top-left-radius: 10px;     
+         }
+        #middletop{
+            background-color:white;
+            border-radius: 10px;
+        }
+        #righttop{
+            background-color:white;
+            border-top-right-radius: 10px;
+        }
+        button{
+           position: absolute;
+           bottom: 15px;
+           padding-right: 5px;
+           right: 15px;
+           margin-right: 100px;        
+        }
+        p{
+            padding-left: 60px;
+        }
+        h1{
+            padding: 30px;
+        }
+        h3{
+            position: absolute;
+            padding-bottom: 50px;
+            padding-left: 130px;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="left" style="height: 450px; width:350px;">
+        <div id="lefttop" style="height: 200px; width: 350px;">
+            <div><center><h3><b>$26</b><br><br>Per Month</h3>
+            </center></div><!--<center><h1 style="color: skyblue;">$26</h1><h3>Per Month</h3></center>-->
+        </div>
+        <div id="leftbottom" style="height: 230px; width: 350px;">
+        <center><h2>BASIC</h2></center><p>Data 100GB</p><p>Speed upto 40Mbps</p><p>Calls 100 calls Local/STD</p><p>Amazon Prime and Netflix 1 year</p>
+            <center><button style="height: 30px;width: 130px; background-color: white;border: 2px black solid; border-radius:15px ;color:black;font-size:medium;"><b>CHOOSE</b></center>
+        </div>
+
+    </div>
+    <div id="right" style="height: 450px; width:350px;">
+        <div id="righttop" style="height: 200px; width: 350px;">
+            <h3 style="text-align: center;"><b>$26</b><br><br>Per Month</h3>
+         <!--<center><h1 style="color: greenyellow;">$30</h1><h3>Per Month</h3></center>-->
+        </div>
+        <div id="rightbottom" style="height: 230px; width: 350px;">
+            <center><h2>PREMIUM</h2></center><p>Data 500GB</p><p>Speed upto 1Gbps</p><p>Calls Unlimited Local/STD</p><p>Amazon Prime 1 year</p>
+            <center><button style="height: 30px;width: 130px; background-color: white;border: 2px black solid; border-radius:15px ;color:black;font-size:medium;"><b>CHOOSE</b></center>
+        </div>
+    </div>
+    <div id="mid" style="height: 550px; width:350px;">
+        <div id="middletop" style="height: 251px; width: 350px;">
+            <h3 style="text-align: center;"><b>$26</b><br><br>Per Month</h3>
+         <!--<center><h1 style="color: palevioletred;">$35</h1><h3>Per Month</h3></center>-->
+        </div>
+        <div id="middlebottom" style="height: 279px; width: 350px;">
+    
+            <center><h2>ULTIMATE</h2></center><p>Data Unlimited</p><p>Speed upto 100Mbps</p><p>Calls Unlimited Local/STD</p><p>Amazon Prime and Netflix 1 year</p>
+            <center><button style="height: 30px;width: 130px; background-color: white;border: 2px black solid; border-radius:15px ;color:black;font-size:medium;"><b>CHOOSE</b></center>
+            
+        </div>
+    </div>
+</body>
+</html>
